@@ -3,6 +3,7 @@ const client = new Discord.Client();
 
 const token = require('./token').token; //load token from token.json
 const utils = require('./utils'); //load utils
+const msg_handler = require('./msg_handler').msg_handler //load message handeler function
 
 client.on('ready', () => {
   utils.successMessage(`Logged in as ${client.user.tag}!`);
