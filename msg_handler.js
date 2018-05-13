@@ -14,7 +14,7 @@ module.exports = function(msg, client) {
 
     if (msg.content[0] == "e"){ //enrole comand
       msg.content = msg.content.substring(1); //remove comand prefix
-      enrole(msg, client)
+      enrole(msg, client) //run enrole function
     }
 
     if (msg.content[0] == "e"){ //list comand
@@ -30,7 +30,7 @@ module.exports = function(msg, client) {
     }
 
     if (msg.content[0] == "h"){ //help comand
-
+      
     }
 
     return
