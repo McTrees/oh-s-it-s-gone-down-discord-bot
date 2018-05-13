@@ -1,0 +1,4 @@
+{
+	"bot_prefix": "!",
+	"messageTimeout": 3000,
+}
